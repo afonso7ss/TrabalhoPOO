@@ -5,10 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Random;
 import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.Random;
+
 
 public class InterfaceGrafica extends JFrame implements ActionListener {
     private JButton[] botoes;
@@ -16,7 +13,7 @@ public class InterfaceGrafica extends JFrame implements ActionListener {
     private int tentativas;
     private JTextField tentativaAtualTextField;
 
-    public GUI() {
+    public InterfaceGrafica() {
     	// titulo e tamanho dos icones e definição;
         setTitle("Adivinhe o Número");
         setSize(400, 250);
@@ -62,7 +59,7 @@ public class InterfaceGrafica extends JFrame implements ActionListener {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
-                GUI gui = new GUI();
+                InterfarceGrafica gui = new InterfaceGrafica();
                 gui.setVisible(true);
             }
         });
