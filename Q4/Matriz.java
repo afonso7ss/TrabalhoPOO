@@ -35,11 +35,11 @@ public class Matriz{
     	String path = "C:\\Users\\Afonso\\Desktop\\in.txt";
     	try(BufferedReader br = new BufferedReader(new FileReader(path))) {
     		String line = br.readLine(); 
-    		 if (line != null) {
-                 System.out.println(line);
-                 
-                 line = br.readLine(); 
-                 int[][] matrixA = {line};
+    		if (line != null) {
+	                 System.out.println(line);
+	                 
+	                 line = br.readLine(); 
+	                 int[][] matrixA = {line};
     		 }
 	        if(line != null) {
 	        	line = br.readLine();
