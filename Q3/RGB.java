@@ -9,7 +9,7 @@ public class RGB {
 
 	public static int AMOUNT;
 	public static void main(String[] args) {
-		String filepath = "C:\\Users\\carro.jpg;
+		String filepath = "C:\\Users\\carro.jpg";
 		File file = new File (filepath);
 		
 		Scanner sc = new Scanner(System.in);
