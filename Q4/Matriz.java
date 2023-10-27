@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Tes01{
+public class Matriz{
  
 
     public static int[][] Multiplica(int[][] matrixA, int[][] matrixB) {
